@@ -1,0 +1,563 @@
+TForgeModule
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_API.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Delegate.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_EventListener.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Util.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_API.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Delegate.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_EventListener.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Util.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/libForgeModule.a normal armv7
+cLibtool /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/libForgeModule.a normal armv7s
+cCreateUniversalBinary /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/libForgeModule.a normal armv7\ armv7s
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000523DAD850000000000000110
+t1379773829
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c00000000523DAD16000000000000036B
+t1379773718
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000523DAD16000000000000019E
+t1379773718
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000523DAD160000000000076920
+t1379773718
+s485664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000523DAD1700000000004D6390
+t1379773719
+s5071760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000523DAD180000000000A8EAD0
+t1379773720
+s11070160
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000523DAD1800000000001A2270
+t1379773720
+s1712752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000523DAD1B0000000002597C70
+t1379773723
+s39418992
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/ForgeCore
+c00000000524AF3FE000000000046243C
+t1380643838
+s4596796
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch
+c0000000051C99C010000000000000159
+t1372167169
+s345
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/ForgeModule.LinkFileList
+c00000000524AF3AA0000000000000298
+t1380643754
+s664
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/libForgeModule.a
+t1384350838
+s196600
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_API.o
+t1384350838
+s103520
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Delegate.o
+t1384350838
+s9544
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_EventListener.o
+t1384350838
+s69864
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Util.o
+t1384350838
+s12496
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/ForgeModule.LinkFileList
+c00000000524AF3AA000000000000029C
+t1380643754
+s668
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/libForgeModule.a
+t1384350838
+s196792
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_API.o
+t1384350838
+s103708
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Delegate.o
+t1384350838
+s9544
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_EventListener.o
+t1384350838
+s69860
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Util.o
+t1384350838
+s12492
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/libForgeModule.a
+t1380643867
+s393440
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.h
+c0000000051C99C01000000000000020E
+t1372167169
+s526
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m
+c000000005245992F0000000000003201
+t1380292911
+s12801
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.h
+c0000000051C99C010000000000000158
+t1372167169
+s344
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m
+c0000000051C99C0100000000000002F5
+t1372167169
+s757
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.h
+c0000000051C99C0100000000000000CE
+t1372167169
+s206
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m
+c000000005245992F0000000000000A56
+t1380292911
+s2646
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.h
+c0000000051C99C01000000000000011E
+t1372167169
+s286
+
+N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m
+c000000005237146300000000000004D6
+t1379341411
+s1238
+
+N/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-aalhhwzdaozghdbfojayvnszdffm/ForgeModule-Prefix.pch.pch
+t1380643867
+s5707120
+
+N/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch.pch
+t1384350838
+s5705988
+
+N/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-fvhdstdvkedvnpezbozsqmfbsdea/ForgeModule-Prefix.pch.pch
+t1380643754
+s5704132
+
+N/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch.pch
+t1384350838
+s5706108
+
+N/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gsvcyniguauhibdmgaxkutfwlwnf/ForgeModule-Prefix.pch.pch
+t1380643867
+s5707240
+
+N/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-hhjsuqwtnyvlftgpqgcpedrsdbho/ForgeModule-Prefix.pch.pch
+t1380643754
+s5704012
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesfb4062f5bb33b841^c04173f5bb33b841^---0#1#1#--18"Check dependencies36"8265E39E-936E-460B-BDAC-9618FC025BDD-
+
+CCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_API.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406043638.110318
+e406043638.440381
+r1
+xCompileC
+xbuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_API.o
+x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m183"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_API.o topbar_API.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc8971cf6bb33b841^f1bc70f6bb33b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m0000000000000000^3968"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_API.o topbar_API.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. -include /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch -MMD -MT dependencies -MF /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_API.d --serialize-diagnostics /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_API.dia -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m -o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_API.o36"A393915F-D935-46A5-9DC1-AABBFF06FC4E-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Delegate.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406043638.110658
+e406043638.353236
+r1
+xCompileC
+xbuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Delegate.o
+x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m193"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Delegate.o topbar_Delegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera3af1cf6bb33b841^a27b5af6bb33b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m0000000000000000^3998"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Delegate.o topbar_Delegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. -include /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch -MMD -MT dependencies -MF /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Delegate.d --serialize-diagnostics /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Delegate.dia -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m -o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Delegate.o36"45EA861D-72EE-4A4D-8109-80B168CD5581-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_EventListener.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406043638.111115
+e406043638.371666
+r1
+xCompileC
+xbuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_EventListener.o
+x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m203"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_EventListener.o topbar_EventListener.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc0b01cf6bb33b841^92255ff6bb33b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m0000000000000000^4028"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_EventListener.o topbar_EventListener.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. -include /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch -MMD -MT dependencies -MF /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_EventListener.d --serialize-diagnostics /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_EventListener.dia -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m -o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_EventListener.o36"9A70D5CC-9D34-422A-BA02-62279E158531-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Util.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406043638.111803
+e406043638.354262
+r1
+xCompileC
+xbuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Util.o
+x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m185"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Util.o topbar_Util.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilere8131df6bb33b841^5bb65af6bb33b841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m0000000000000000^3974"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Util.o topbar_Util.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. -include /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch -MMD -MT dependencies -MF /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Util.d --serialize-diagnostics /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Util.dia -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m -o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/topbar_Util.o36"69923831-E37E-458C-AA01-8E2B737D7168-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_API.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406043638.112276
+e406043638.445895
+r1
+xCompileC
+xbuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_API.o
+x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m185"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_API.o topbar_API.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler61361df6bb33b841^aa2872f6bb33b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m0000000000000000^3975"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_API.o topbar_API.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7s -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. -include /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch -MMD -MT dependencies -MF /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_API.d --serialize-diagnostics /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_API.dia -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_API.m -o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_API.o36"39C225BB-DBC5-46ED-B04C-847552C8F80D-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Delegate.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406043638.112776
+e406043638.354042
+r1
+xCompileC
+xbuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Delegate.o
+x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m195"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Delegate.o topbar_Delegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilercc441df6bb33b841^4eb95af6bb33b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m0000000000000000^4005"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Delegate.o topbar_Delegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7s -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. -include /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch -MMD -MT dependencies -MF /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Delegate.d --serialize-diagnostics /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Delegate.dia -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.m -o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Delegate.o36"1E57F513-9E4C-4F49-AB72-EE72D29692BF-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_EventListener.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406043638.113242
+e406043638.371510
+r1
+xCompileC
+xbuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_EventListener.o
+x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Delegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m205"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_EventListener.o topbar_EventListener.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6c5e1df6bb33b841^2e1d5ff6bb33b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m0000000000000000^4035"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_EventListener.o topbar_EventListener.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7s -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. -include /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch -MMD -MT dependencies -MF /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_EventListener.d --serialize-diagnostics /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_EventListener.dia -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_EventListener.m -o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_EventListener.o36"37C60B63-B2D5-401C-A30D-A95521EADED1-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Util.o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406043638.113949
+e406043638.354046
+r1
+xCompileC
+xbuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Util.o
+x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m187"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Util.o topbar_Util.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler08ca1df6bb33b841^c0975af6bb33b841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m0000000000000000^3981"CompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Util.o topbar_Util.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7s -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. -include /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch -MMD -MT dependencies -MF /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Util.d --serialize-diagnostics /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Util.dia -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/topbar_Util.m -o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/topbar_Util.o36"883997A6-A0C5-4816-833B-A8736B096F08-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CCreateUniversalBinary /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/libForgeModule.a normal armv7\ armv7s
+s406043638.460975
+e406043638.473790
+r1
+xCreateUniversalBinary
+x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/libForgeModule.a
+xnormal
+xarmv7 armv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Create universal binary /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/libForgeModule.a82"CreateUniversalBinary build/Release-iphoneos/libForgeModule.a normal armv7\ armv7sbd3776f6bb33b841^164b79f6bb33b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/libForgeModule.a0000000000000000^1523"CreateUniversalBinary build/Release-iphoneos/libForgeModule.a normal armv7\ armv7s    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    libtool -static /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/libForgeModule.a /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/libForgeModule.a -o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/libForgeModule.a36"323FE188-D5F1-4735-BCEC-614D29BEB9D0-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CLibtool /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/libForgeModule.a normal armv7
+s406043638.446851
+e406043638.459971
+r1
+xLibtool
+x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/libForgeModule.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/libForgeModule.a normal armv7117"Libtool build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/libForgeModule.a normal armv76f9e72f6bb33b841^adc375f6bb33b841^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--1966"Libtool build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/libForgeModule.a normal armv7    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -filelist /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/ForgeModule.LinkFileList -ObjC -framework SystemConfiguration -framework AssetsLibrary -framework CoreGraphics -framework UIKit -framework Foundation -framework ForgeCore -o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/libForgeModule.a36"476AF6E1-6DFD-4338-9376-6C6E4C6C8C1D-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CLibtool /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/libForgeModule.a normal armv7s
+s406043638.447236
+e406043638.460236
+r1
+xLibtool
+x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/libForgeModule.a
+xnormal
+xarmv7s
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Libtool build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/libForgeModule.a normal armv7s119"Libtool build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/libForgeModule.a normal armv7sc7bc72f6bb33b841^8dd275f6bb33b841^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--1971"Libtool build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/libForgeModule.a normal armv7s    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -filelist /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/ForgeModule.LinkFileList -ObjC -framework SystemConfiguration -framework AssetsLibrary -framework CoreGraphics -framework UIKit -framework Foundation -framework ForgeCore -o /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s/libForgeModule.a36"9E6F67CD-AC58-41E1-B1AD-9D19C510E166-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-aalhhwzdaozghdbfojayvnszdffm/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402336666.939280
+e402336667.250987
+r1
+xProcessPCH
+x/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-aalhhwzdaozghdbfojayvnszdffm/ForgeModule-Prefix.pch.pch
+xForgeModule-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeCore.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeTask.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeLog.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeAppDelegate.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeApp.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/JSONKit.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeViewController.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeEventListener.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeFile.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeUtil.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/BorderControl.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ALAsset+Data.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIImage+ResizeImage.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSData+Base64.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DirectoryLocations.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSURL+QueryString.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/Reachability.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIViewController+dismissViewControllerHelper.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DoNotBackup.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ForgeModule-Prefix.pch310"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-aalhhwzdaozghdbfojayvnszdffm/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0bb7f09a2bfbb741^c040409b2bfbb741^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch0000000000000000^3876"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-aalhhwzdaozghdbfojayvnszdffm/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -Ibuild -Ibuild/ForgeModule.build -Ibuild/Release-iphoneos -Ibuild/ForgeModule.build/Release-iphoneos -Ibuild/ForgeModule.build/Release-iphonesimulator -Ibuild/ForgeModule.build/Release-iphoneos/ForgeModule.build -Ibuild/ForgeModule.build/Release-iphoneos/ForgeModuleResources.build -Ibuild/ForgeModule.build/Release-iphonesimulator/ForgeModule.build -Ibuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal -Ibuild/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal -Ibuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7 -Ibuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s -Ibuild/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. --serialize-diagnostics /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-aalhhwzdaozghdbfojayvnszdffm/ForgeModule-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-aalhhwzdaozghdbfojayvnszdffm/ForgeModule-Prefix.pch.d -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch -o /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-aalhhwzdaozghdbfojayvnszdffm/ForgeModule-Prefix.pch.pch36"58923790-A0C3-4BDE-9FED-FFD08A223E15-
+b94A9CF0B-5E4E-4D63-A3CF-051C61B09C55
+
+CProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406043637.452981
+e406043638.109362
+r1
+xProcessPCH
+x/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch.pch
+xForgeModule-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeCore.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeTask.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeLog.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeAppDelegate.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeApp.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/JSONKit.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeViewController.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeEventListener.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeFile.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeUtil.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/BorderControl.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ALAsset+Data.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIImage+ResizeImage.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSData+Base64.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DirectoryLocations.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSURL+QueryString.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/Reachability.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIViewController+dismissViewControllerHelper.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DoNotBackup.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ForgeModule-Prefix.pch310"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilere63f74f5bb33b841^840c1cf6bb33b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch0000000000000000^4033"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. --serialize-diagnostics /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch.d -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch -o /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-brbznpkqsaazubavuuripilqyspz/ForgeModule-Prefix.pch.pch36"CB2EE4BE-CF0F-488E-9CFC-D6FDFBAE31C0-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-fvhdstdvkedvnpezbozsqmfbsdea/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402336554.364834
+e402336554.710798
+r1
+xProcessPCH
+x/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-fvhdstdvkedvnpezbozsqmfbsdea/ForgeModule-Prefix.pch.pch
+xForgeModule-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeCore.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeTask.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeLog.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeAppDelegate.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeApp.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/JSONKit.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeViewController.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeEventListener.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeFile.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeUtil.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/BorderControl.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ALAsset+Data.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIImage+ResizeImage.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSData+Base64.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DirectoryLocations.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSURL+QueryString.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/Reachability.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIViewController+dismissViewControllerHelper.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DoNotBackup.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ForgeModule-Prefix.pch311"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-fvhdstdvkedvnpezbozsqmfbsdea/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilere6c95d2a2bfbb741^dcf6b52a2bfbb741^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch0000000000000000^4036"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-fvhdstdvkedvnpezbozsqmfbsdea/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7s -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. --serialize-diagnostics /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-fvhdstdvkedvnpezbozsqmfbsdea/ForgeModule-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-fvhdstdvkedvnpezbozsqmfbsdea/ForgeModule-Prefix.pch.d -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch -o /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-fvhdstdvkedvnpezbozsqmfbsdea/ForgeModule-Prefix.pch.pch36"398490C9-B2BD-43D9-B02C-DDA8F727CD95-
+b2A7FC667-AEA5-47E3-8B04-83DD0F3FC3D1
+
+CProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s406043637.453274
+e406043638.106772
+r1
+xProcessPCH
+x/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch.pch
+xForgeModule-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeCore.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeTask.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeLog.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeAppDelegate.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeApp.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/JSONKit.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeViewController.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeEventListener.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeFile.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeUtil.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/BorderControl.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ALAsset+Data.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIImage+ResizeImage.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSData+Base64.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DirectoryLocations.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSURL+QueryString.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/Reachability.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIViewController+dismissViewControllerHelper.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DoNotBackup.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ForgeModule-Prefix.pch311"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd44774f5bb33b841^54561bf6bb33b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch0000000000000000^4036"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7s -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. --serialize-diagnostics /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch.d -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch -o /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gavukzjgcaguyoalximsovhmjncu/ForgeModule-Prefix.pch.pch36"50DE4B32-390B-4697-964C-503370D2A28B-
+bBA7EC586-7C14-4576-A664-1BBFDBBAED16
+
+CProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gsvcyniguauhibdmgaxkutfwlwnf/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402336666.940548
+e402336667.250373
+r1
+xProcessPCH
+x/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gsvcyniguauhibdmgaxkutfwlwnf/ForgeModule-Prefix.pch.pch
+xForgeModule-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeCore.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeTask.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeLog.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeAppDelegate.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeApp.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/JSONKit.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeViewController.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeEventListener.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeFile.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeUtil.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/BorderControl.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ALAsset+Data.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIImage+ResizeImage.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSData+Base64.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DirectoryLocations.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSURL+QueryString.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/Reachability.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIViewController+dismissViewControllerHelper.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DoNotBackup.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ForgeModule-Prefix.pch311"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gsvcyniguauhibdmgaxkutfwlwnf/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerdbfbf09a2bfbb741^be16409b2bfbb741^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch0000000000000000^3879"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gsvcyniguauhibdmgaxkutfwlwnf/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -Ibuild -Ibuild/ForgeModule.build -Ibuild/Release-iphoneos -Ibuild/ForgeModule.build/Release-iphoneos -Ibuild/ForgeModule.build/Release-iphonesimulator -Ibuild/ForgeModule.build/Release-iphoneos/ForgeModule.build -Ibuild/ForgeModule.build/Release-iphoneos/ForgeModuleResources.build -Ibuild/ForgeModule.build/Release-iphonesimulator/ForgeModule.build -Ibuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal -Ibuild/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal -Ibuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7 -Ibuild/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7s -Ibuild/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7s -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. --serialize-diagnostics /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gsvcyniguauhibdmgaxkutfwlwnf/ForgeModule-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gsvcyniguauhibdmgaxkutfwlwnf/ForgeModule-Prefix.pch.d -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch -o /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-gsvcyniguauhibdmgaxkutfwlwnf/ForgeModule-Prefix.pch.pch36"41BF31B2-0BEB-4D2A-B67D-6546A707ED59-
+b94A9CF0B-5E4E-4D63-A3CF-051C61B09C55
+
+CProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-hhjsuqwtnyvlftgpqgcpedrsdbho/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402336554.363560
+e402336554.708418
+r1
+xProcessPCH
+x/var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-hhjsuqwtnyvlftgpqgcpedrsdbho/ForgeModule-Prefix.pch.pch
+xForgeModule-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeCore.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeTask.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeLog.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeAppDelegate.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeApp.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/JSONKit.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeViewController.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeEventListener.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeFile.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ForgeUtil.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/BorderControl.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/ALAsset+Data.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIImage+ResizeImage.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSData+Base64.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DirectoryLocations.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSURL+QueryString.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/Reachability.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/UIViewController+dismissViewControllerHelper.h
+d/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeCore.framework/Headers/NSFileManager+DoNotBackup.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ForgeModule-Prefix.pch310"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-hhjsuqwtnyvlftgpqgcpedrsdbho/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerbe6a5d2a2bfbb741^c559b52a2bfbb741^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch0000000000000000^4033"ProcessPCH /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-hhjsuqwtnyvlftgpqgcpedrsdbho/ForgeModule-Prefix.pch.pch ForgeModule-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -miphoneos-version-min=4.3 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/ForgeModule.hmap -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/include -I. -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources/armv7 -I/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/ForgeModule.build/Release-iphoneos/ForgeModule.build/DerivedSources -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule -F/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/.. --serialize-diagnostics /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-hhjsuqwtnyvlftgpqgcpedrsdbho/ForgeModule-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-hhjsuqwtnyvlftgpqgcpedrsdbho/ForgeModule-Prefix.pch.d -c /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/ForgeModule-Prefix.pch -o /var/folders/3g/vkmfzgzn1fb2v1_0msrrmqqr0000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/5.0-5A1413/Xcode/SharedPrecompiledHeaders/ForgeModule-Prefix-hhjsuqwtnyvlftgpqgcpedrsdbho/ForgeModule-Prefix.pch.pch36"82AEFA03-C9F8-46E1-88A6-A1A6449E6788-
+b2A7FC667-AEA5-47E3-8B04-83DD0F3FC3D1
+
