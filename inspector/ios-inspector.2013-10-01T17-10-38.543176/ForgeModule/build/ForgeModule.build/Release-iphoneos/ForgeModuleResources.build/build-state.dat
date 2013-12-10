@@ -1,137 +1,0 @@
-TForgeModuleResources
-v6
-r1
-cCheck dependencies
-cCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed@2x.png UINavigationBarBlackOpaqueBackPressed@2x.png
-cCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack@2x.png UINavigationBarBlackOpaqueBack@2x.png
-cCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault.png UINavigationBarBackIndicatorDefault.png
-cCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack.png UINavigationBarBlackOpaqueBack.png
-cCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed.png UINavigationBarBlackOpaqueBackPressed.png
-cCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault@2x.png UINavigationBarBackIndicatorDefault@2x.png
-cTouch /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBackIndicatorDefault.png
-c0000000052371463000000000000016C
-t1379341411
-s364
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBackIndicatorDefault@2x.png
-c000000005237146300000000000001C6
-t1379341411
-s454
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBack.png
-c0000000051C99C010000000000000329
-t1372167169
-s809
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBack@2x.png
-c0000000051C99C010000000000000761
-t1372167169
-s1889
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBackPressed.png
-c0000000051C99C0100000000000002E6
-t1372167169
-s742
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBackPressed@2x.png
-c0000000051C99C01000000000000063B
-t1372167169
-s1595
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle
-t1380643755
-s272
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault.png
-t1380643755
-s354
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault@2x.png
-t1380643755
-s357
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack.png
-t1380643755
-s765
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack@2x.png
-t1380643755
-s2079
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed.png
-t1380643755
-s687
-
-N/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed@2x.png
-t1380643755
-s1830
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies670f3c2b2bfbb741^44853e2b2bfbb741^---0#1#1#--18"Check dependencies36"6EF4DE2F-5F83-4706-9970-4E26C49867C6-
-
-CCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault.png UINavigationBarBackIndicatorDefault.png
-s402336555.248003
-e402336555.295358
-r1
-xCopyPNGFile
-x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault.png
-xUINavigationBarBackIndicatorDefault.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault.png UINavigationBarBackIndicatorDefault.png128"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault.png UINavigationBarBackIndicatorDefault.pngf9da3f2b2bfbb741^5e9d4b2b2bfbb741^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBackIndicatorDefault.png0000000000000000^1470"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault.png UINavigationBarBackIndicatorDefault.png    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBackIndicatorDefault.png /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault.png36"E84EAFA1-84DF-4ECC-9A0E-0BC1B8EC2594-
-b587A1703-B9F9-4DC9-94AB-466FB2DB6367
-
-CCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault@2x.png UINavigationBarBackIndicatorDefault@2x.png
-s402336555.248046
-e402336555.288276
-r1
-xCopyPNGFile
-x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault@2x.png
-xUINavigationBarBackIndicatorDefault@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault@2x.png UINavigationBarBackIndicatorDefault@2x.png134"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault@2x.png UINavigationBarBackIndicatorDefault@2x.png6bd43f2b2bfbb741^92cd492b2bfbb741^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBackIndicatorDefault@2x.png0000000000000000^1482"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault@2x.png UINavigationBarBackIndicatorDefault@2x.png    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBackIndicatorDefault@2x.png /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBackIndicatorDefault@2x.png36"AE34378D-BF10-4163-94D2-6D60E98E6EDF-
-b587A1703-B9F9-4DC9-94AB-466FB2DB6367
-
-CCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack.png UINavigationBarBlackOpaqueBack.png
-s402336555.248008
-e402336555.289038
-r1
-xCopyPNGFile
-x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack.png
-xUINavigationBarBlackOpaqueBack.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack.png UINavigationBarBlackOpaqueBack.png118"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack.png UINavigationBarBlackOpaqueBack.pngb8ca3f2b2bfbb741^a8fe492b2bfbb741^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBack.png0000000000000000^1450"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack.png UINavigationBarBlackOpaqueBack.png    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBack.png /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack.png36"4E9D83C3-ACD6-427F-84EC-695AF169E4AE-
-b587A1703-B9F9-4DC9-94AB-466FB2DB6367
-
-CCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack@2x.png UINavigationBarBlackOpaqueBack@2x.png
-s402336555.247991
-e402336555.290408
-r1
-xCopyPNGFile
-x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack@2x.png
-xUINavigationBarBlackOpaqueBack@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack@2x.png UINavigationBarBlackOpaqueBack@2x.png124"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack@2x.png UINavigationBarBlackOpaqueBack@2x.png32ca3f2b2bfbb741^e6584a2b2bfbb741^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBack@2x.png0000000000000000^1462"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack@2x.png UINavigationBarBlackOpaqueBack@2x.png    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBack@2x.png /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBack@2x.png36"FE230B05-66E0-4CA7-87AF-AF94CB4BDA4A-
-b587A1703-B9F9-4DC9-94AB-466FB2DB6367
-
-CCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed.png UINavigationBarBlackOpaqueBackPressed.png
-s402336555.248044
-e402336555.288716
-r1
-xCopyPNGFile
-x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed.png
-xUINavigationBarBlackOpaqueBackPressed.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed.png UINavigationBarBlackOpaqueBackPressed.png132"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed.png UINavigationBarBlackOpaqueBackPressed.pnge0d83f2b2bfbb741^d1e9492b2bfbb741^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBackPressed.png0000000000000000^1478"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed.png UINavigationBarBlackOpaqueBackPressed.png    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBackPressed.png /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed.png36"4B610FD6-6E61-4CBB-A3EE-6D6109857F6B-
-b587A1703-B9F9-4DC9-94AB-466FB2DB6367
-
-CCopyPNGFile /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed@2x.png UINavigationBarBlackOpaqueBackPressed@2x.png
-s402336555.247989
-e402336555.292061
-r1
-xCopyPNGFile
-x/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed@2x.png
-xUINavigationBarBlackOpaqueBackPressed@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed@2x.png UINavigationBarBlackOpaqueBackPressed@2x.png138"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed@2x.png UINavigationBarBlackOpaqueBackPressed@2x.png6bd83f2b2bfbb741^5dc54a2b2bfbb741^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBackPressed@2x.png0000000000000000^1490"CopyPNGFile build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed@2x.png UINavigationBarBlackOpaqueBackPressed@2x.png    cd /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/UINavigationBarBlackOpaqueBackPressed@2x.png /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle/UINavigationBarBlackOpaqueBackPressed@2x.png36"7F970C6E-5092-46F2-A87B-CAEB846E6585-
-b587A1703-B9F9-4DC9-94AB-466FB2DB6367
-
-CTouch /Users/james/Code/modules/topbar/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/topbar.bundle
-r0
-
