@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 Trigger Corp. All rights reserved.
 //
 
+#import <WebKit/WebKit.h>
 #import "topbar_Delegate.h"
 
 extern UINavigationBar *topbar;
@@ -20,18 +21,28 @@ extern UINavigationBar *topbar;
 	}	
 	return self;
 }
+
+
 - (void) clicked {
-	if ([callId isEqualToString:@"back"]) {
-		if ([[[ForgeApp sharedApp] webView] canGoBack]) {
-			[[[ForgeApp sharedApp] webView] goBack];
-		}
-	} else {
-		NSString *eventName = [NSString stringWithFormat:@"topbar.buttonPressed.%@", callId];
-		[[ForgeApp sharedApp] event:eventName withParam:[NSNull null]];
-	}
+    if ([callId isEqualToString:@"back"] && [[ForgeApp sharedApp] useWKWebView] && NSClassFromString(@"WKWebView")) {
+        WKWebView *webView = (WKWebView*)[[ForgeApp sharedApp] webView];
+        if ([webView canGoBack]) {
+            [webView goBack];
+        }
+        
+    } else if ([callId isEqualToString:@"back"]) {
+        UIWebView *webView = (UIWebView*)[[ForgeApp sharedApp] webView];
+        if ([webView canGoBack]) {
+            [webView goBack];
+        }
+        
+    } else {
+        NSString *eventName = [NSString stringWithFormat:@"topbar.buttonPressed.%@", callId];
+        [[ForgeApp sharedApp] event:eventName withParam:[NSNull null]];
+    }
 }
 - (void) releaseDelegate {
-	me = nil;
+    me = nil;
 }
 
 @end

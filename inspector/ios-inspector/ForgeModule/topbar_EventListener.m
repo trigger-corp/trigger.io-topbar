@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 Trigger Corp. All rights reserved.
 //
 
+#import <WebKit/WebKit.h>
 #import "topbar_EventListener.h"
 #import "topbar_Delegate.h"
 #import "topbar_Util.h"
@@ -55,12 +56,21 @@ UINavigationBar *topbar;
 	// Resize webview scroll area
 	if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) {
 		[[ForgeApp sharedApp] webView].frame = CGRectMake([[ForgeApp sharedApp] webView].frame.origin.x, [[ForgeApp sharedApp] webView].frame.origin.y + topbar.frame.size.height, [[ForgeApp sharedApp] webView].frame.size.width, [[ForgeApp sharedApp] webView].frame.size.height - topbar.frame.size.height);
-	} else {
-		UIEdgeInsets inset = [[ForgeApp sharedApp] webView].scrollView.contentInset;
+        
+    } else if ([[ForgeApp sharedApp] useWKWebView] && NSClassFromString(@"WKWebView")) {
+        WKWebView *webView = (WKWebView*)[[ForgeApp sharedApp] webView];
+		UIEdgeInsets inset = webView.scrollView.contentInset;
 		UIEdgeInsets newInset = UIEdgeInsetsMake(inset.top + [topbar_Util topbarInset:topbar], inset.left, inset.bottom, inset.right);
-		[[[ForgeApp sharedApp] webView].scrollView setContentInset:newInset];
-		[[[ForgeApp sharedApp] webView].scrollView setScrollIndicatorInsets:newInset];
-	}
+		[webView.scrollView setContentInset:newInset];
+		[webView.scrollView setScrollIndicatorInsets:newInset];
+        
+    } else {
+        UIWebView *webView = (UIWebView*)[[ForgeApp sharedApp] webView];
+        UIEdgeInsets inset = webView.scrollView.contentInset;
+        UIEdgeInsets newInset = UIEdgeInsetsMake(inset.top + [topbar_Util topbarInset:topbar], inset.left, inset.bottom, inset.right);
+        [webView.scrollView setContentInset:newInset];
+        [webView.scrollView setScrollIndicatorInsets:newInset];
+    }
 
 	// Add topbar to view
 	[[[ForgeApp sharedApp] viewController].view insertSubview:topbar aboveSubview:[ForgeApp sharedApp].webView];
