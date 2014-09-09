@@ -24,7 +24,7 @@ extern UINavigationBar *topbar;
 
 
 - (void) clicked {
-    if ([callId isEqualToString:@"back"] && [[ForgeApp sharedApp] useWKWebView] && NSClassFromString(@"WKWebView")) {
+    if ([callId isEqualToString:@"back"] && NSClassFromString(@"WKWebView") && [[ForgeApp sharedApp] useWKWebView]) {
         WKWebView *webView = (WKWebView*)[[ForgeApp sharedApp] webView];
         if ([webView canGoBack]) {
             [webView goBack];

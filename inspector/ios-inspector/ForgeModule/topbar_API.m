@@ -24,7 +24,7 @@ static bool hidden = NO;
 		if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) {
 			[[ForgeApp sharedApp] webView].frame = CGRectMake([[ForgeApp sharedApp] webView].frame.origin.x, [[ForgeApp sharedApp] webView].frame.origin.y + topbar.frame.size.height, [[ForgeApp sharedApp] webView].frame.size.width, [[ForgeApp sharedApp] webView].frame.size.height - topbar.frame.size.height);
             
-		} else if ([[ForgeApp sharedApp] useWKWebView] && NSClassFromString(@"WKWebView")) {
+		} else if (NSClassFromString(@"WKWebView") && [[ForgeApp sharedApp] useWKWebView]) {
             WKWebView *webView = (WKWebView*)[[ForgeApp sharedApp] webView];
             UIEdgeInsets inset = webView.scrollView.contentInset;
             UIEdgeInsets newInset = UIEdgeInsetsMake(inset.top + [topbar_Util topbarInset:topbar], inset.left, inset.bottom, inset.right);
@@ -53,7 +53,7 @@ static bool hidden = NO;
         if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) {
             [[ForgeApp sharedApp] webView].frame = CGRectMake([[ForgeApp sharedApp] webView].frame.origin.x, [[ForgeApp sharedApp] webView].frame.origin.y - topbar.frame.size.height, [[ForgeApp sharedApp] webView].frame.size.width, [[ForgeApp sharedApp] webView].frame.size.height + topbar.frame.size.height);
             
-        } else if ([[ForgeApp sharedApp] useWKWebView] && NSClassFromString(@"WKWebView")) {
+        } else if (NSClassFromString(@"WKWebView") && [[ForgeApp sharedApp] useWKWebView]) {
             WKWebView *webView = (WKWebView*)[[ForgeApp sharedApp] webView];
             UIEdgeInsets inset = webView.scrollView.contentInset;
             UIEdgeInsets newInset = UIEdgeInsetsMake(inset.top - [topbar_Util topbarInset:topbar], inset.left, inset.bottom, inset.right);
