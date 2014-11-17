@@ -18,6 +18,9 @@ forge['topbar'] = {
 	'setTint': function (color, success, error) {
 		forge.internal.call("topbar.setTint", {color: color}, success, error);
 	},
+	'setTitleTint': function (color, success, error) {
+		forge.internal.call("topbar.setTitleTint", {color: color}, success, error);
+	},
 	'addButton': function (params, callback, error) {
 		if (params.icon && params.icon[0] === "/") {
 			params.icon = params.icon.substr(1);

@@ -158,6 +158,19 @@ if (forge.is.mobile()) {
 			}
 		});
 	});
+	asyncTest("TitleTint", 1, function() {
+		forge.topbar.setTitleTint([255,0,0,255]);
+		askQuestion("Is the bar now green with red text?", {
+			Yes: function () {
+				ok(true, "Success");
+				start();
+			},
+			No: function () {
+				ok(false, "User claims failure");
+				start();
+			}
+		});
+	});
 	asyncTest("Add a button - tint", 1, function() {
 		forge.topbar.addButton({text: "®é∂", tint: [255,0,0,255]}, runOnce(function () {
 			ok(true, "Success");

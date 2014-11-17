@@ -35,15 +35,23 @@ To get an idea of how these headers can look, see our blog post, [How to build h
 !param: error `function(content)` called with details of any error which may occur
 
 !method: forge.topbar.setTint(color, success, error)
-!param: color `array` an array of four integers in the range [0,255] that make up the RGBA color of the badge. For example, opaque red is [255, 0, 0, 255].
+!param: color `array` an array of four integers in the range [0,255] that make up the RGBA color of the topbar. For example, opaque red is [255, 0, 0, 255].
 !param: success `function()` callback to be invoked when no errors occur
-!description: Set a color to tint the topbar with, in effect the topbar will become this color with a gradient effect applied.
+!description: Set a color to tint the topbar with, in effect the topbar will become this color.
 !platforms: iOS, Android
 !param: error `function(content)` called with details of any error which may occur
 
 > ::Note:: On iOS 6 and 7 this color will also be used to tint the status bar, you can
 use this in combination with hiding the topbar if you only want a
 colored status bar and not a topbar.
+
+!method: forge.topbar.setTitleTint(color, success, error)
+!param: color `array` an array of four integers in the range [0,255] that make up the RGBA color of the title text. For example, opaque red is [255, 0, 0, 255].
+!param: success `function()` callback to be invoked when no errors occur
+!description: Set a color to tint the topbar title with.
+!platforms: iOS, Android
+!param: error `function(content)` called with details of any error which may occur
+
 
 !method: forge.topbar.setStatusBarStyle(style, success, error)
 !platforms: iOS 7 only

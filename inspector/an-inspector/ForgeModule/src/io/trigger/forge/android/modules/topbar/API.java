@@ -78,6 +78,20 @@ public class API {
 		});
 	}
 
+	public static void setTitleTint(final ForgeTask task) {
+		task.performUI(new Runnable() {
+			public void run() {
+				JsonArray colorArray = task.params.getAsJsonArray("color");
+				int color = Color.argb(colorArray.get(3).getAsInt(), colorArray.get(0).getAsInt(), colorArray.get(1).getAsInt(), colorArray.get(2).getAsInt());
+				ColorDrawable bgColor = new ColorDrawable(color);
+				if (Util.titleText != null) {
+					Util.titleText.setTextColor(color);
+				}
+				task.success();
+			}
+		});
+	}
+	
 	public static void addButton(final ForgeTask task) {
 		task.performUI(new Runnable() {
 			public void run() {

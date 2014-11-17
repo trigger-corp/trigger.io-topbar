@@ -1,8 +1,8 @@
 {
-    "changes": "* Support arm64 devices running iOS 8", 
+    "changes": "* New method: `topbar.setTitleTint()`", 
     "description": "Add a fixed navigation bar to the top of your app.\n\nThe topbar module provides a native title and navigation bar at the top of your app. You can add and configure buttons, set the title and icons from JavaScript.", 
     "min_platform_version": "v2.1.0", 
     "namespace": "topbar", 
-    "platform_version": "v2.2.0", 
-    "version": "2.6"
+    "platform_version": "v2.2.6", 
+    "version": "2.7"
 }

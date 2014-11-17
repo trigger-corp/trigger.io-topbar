@@ -15,6 +15,7 @@
 + (void)setTitle:(ForgeTask*)task title:(NSString*)title;
 + (void)setTitleImage:(ForgeTask*)task icon:(NSString*)icon;
 + (void)setTint:(ForgeTask *)task color:(NSArray*)color;
++ (void)setTitleTint:(ForgeTask *)task color:(NSArray*)color;
 + (void)addButton:(ForgeTask*)task;
 + (void)removeButtons:(ForgeTask*)task;
 

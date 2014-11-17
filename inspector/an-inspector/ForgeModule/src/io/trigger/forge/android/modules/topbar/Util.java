@@ -22,6 +22,7 @@ import android.widget.TextView;
 public class Util {
 	public static RelativeLayout topbar = null;
 	public static View title = null;
+	public static TextView titleText = null;
 	public static LinearLayout left = null;
 	public static LinearLayout right = null;
 
@@ -29,16 +30,16 @@ public class Util {
 		DisplayMetrics metrics = new DisplayMetrics();
 		((Activity) context).getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
-		TextView newtitle = new TextView(context);
-		newtitle.setText(text);
-		newtitle.setTextColor(0xFF000000);
-		newtitle.setTextSize(TypedValue.COMPLEX_UNIT_PX, metrics.density * 24);
-		newtitle.setGravity(Gravity.CENTER);
+		titleText = new TextView(context);
+		titleText.setText(text);
+		titleText.setTextColor(0xFF000000);
+		titleText.setTextSize(TypedValue.COMPLEX_UNIT_PX, metrics.density * 24);
+		titleText.setGravity(Gravity.CENTER);
 
 		RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(10000, 10000);
-		topbar.addView(newtitle, params);
+		topbar.addView(titleText, params);
 		topbar.removeView(title);
-		title = newtitle;
+		title = titleText;
 	}
 
 	public static void setTitleImage(Context context, JsonElement icon) throws IOException {

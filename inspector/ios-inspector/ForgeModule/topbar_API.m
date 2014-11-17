@@ -128,6 +128,15 @@ static bool hidden = NO;
 	[task success:nil];
 }
 
++ (void)setTitleTint:(ForgeTask *)task color:(NSArray*)color {
+    UIColor *uiColor = [UIColor colorWithRed:[(NSNumber*)[color objectAtIndex:0] floatValue]/255 green:[(NSNumber*)[color objectAtIndex:1] floatValue]/255 blue:[(NSNumber*)[color objectAtIndex:2] floatValue]/255 alpha:[(NSNumber*)[color objectAtIndex:3] floatValue]/255];
+    
+    if ([topbar respondsToSelector:@selector(setTitleTextAttributes:)]) {
+        [topbar setTitleTextAttributes:@{ NSForegroundColorAttributeName:uiColor }];
+    }
+    [task success:nil];
+}
+
 + (void)addButton:(ForgeTask*)task {
 	UINavigationItem *navItem = ((UINavigationItem*)[topbar.items objectAtIndex:0]);
 
