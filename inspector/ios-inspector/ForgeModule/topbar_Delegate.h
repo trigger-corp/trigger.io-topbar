@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface topbar_Delegate : NSObject {
+@interface topbar_Delegate : UIViewController <UINavigationControllerDelegate, UINavigationBarDelegate> {
 	NSString *callId;
 	topbar_Delegate *me;
 }
@@ -16,4 +16,10 @@
 - (topbar_Delegate*) initWithId:(NSString *)newId;
 - (void) releaseDelegate;
 
+@end
+
+
+// extend protocol for UIButton with our custom selector
+@interface UIButton ()
+-(void)clicked;
 @end

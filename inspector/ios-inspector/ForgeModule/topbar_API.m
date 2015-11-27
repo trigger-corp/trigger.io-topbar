@@ -40,8 +40,13 @@ static bool hidden = NO;
         }
 		
 		[topbar setHidden:NO];
-		
-		[[ForgeApp sharedApp] hideStatusBarBox];
+
+        if ([topbar_Util iPad2Bug]) {
+            // do nothing
+        } else {
+            [[ForgeApp sharedApp] hideStatusBarBox];
+        }
+
 		hidden = NO;
 	}
 	[task success:nil];
@@ -67,10 +72,14 @@ static bool hidden = NO;
             [webView.scrollView setContentInset:newInset];
             [webView.scrollView setScrollIndicatorInsets:newInset];
         }
-        
+
 		[topbar setHidden:YES];
-		
-		[[ForgeApp sharedApp] showStatusBarBox];
+
+        if ([topbar_Util iPad2Bug]) {
+            // do nothing
+        } else {
+            [[ForgeApp sharedApp] showStatusBarBox];
+        }
 		hidden = YES;
 	}
 	[task success:nil];
@@ -321,5 +330,6 @@ static bool hidden = NO;
 		[task error:@"Not available on this version of iOS." type:@"UNAVAILABLE" subtype:nil];
 	}
 }
+
 
 @end

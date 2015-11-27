@@ -12,5 +12,8 @@
 
 + (UIImage *)image:(UIImage*)image withTint:(UIColor *)tintColor;
 + (int) topbarInset:(UINavigationBar*)topbar;
++ (bool) iPad2Bug;
 
 @end
+
+

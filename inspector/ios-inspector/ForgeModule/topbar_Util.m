@@ -55,4 +55,14 @@
 	}
 }
 
++ (bool) iPad2Bug {
+    bool is_ios9 = floor(NSFoundationVersionNumber) >= NSFoundationVersionNumber10_9; // only manifests on iOS 9 so far
+    bool is_ipad = [[[UIDevice currentDevice] model] hasPrefix:@"iPad"]; // manifests on the iPad
+    bool is_iphone_app = [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone; // when the app has been targeted for the iPhone
+    bool is_retina = [[UIScreen mainScreen] respondsToSelector:@selector(nativeScale)] &&
+                     [[UIScreen mainScreen] nativeScale] == 2.0; // but only on non-retina iPads
+
+    return is_ios9 && is_ipad && is_iphone_app && !is_retina;
+}
+
 @end

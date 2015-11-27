@@ -20,3 +20,4 @@
 + (void)removeButtons:(ForgeTask*)task;
 
 @end
+

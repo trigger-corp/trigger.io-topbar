@@ -14,7 +14,7 @@
 UIStatusBarStyle topbar_statusBarStyle = UIStatusBarStyleDefault;
 UINavigationBar *topbar;
 
-@interface topbar_BarDelegate : NSObject <UIBarPositioningDelegate> {
+@interface topbar_BarDelegate : UIViewController <UIBarPositioningDelegate, UINavigationBarDelegate> {
 	topbar_BarDelegate *me;
 }
 @end
@@ -36,19 +36,24 @@ UINavigationBar *topbar;
 
 @end
 
+
 @implementation topbar_EventListener
 
 + (void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Create the topbar
-	topbar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0f, [ForgeApp sharedApp].webviewTop, 320.0f, 44.0f)];
+    if ([topbar_Util iPad2Bug]) {
+        topbar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0f, [ForgeApp sharedApp].webviewTop, 320.0f, 24.0f)];
+    } else {
+        topbar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0f, [ForgeApp sharedApp].webviewTop, 320.0f, 44.0f)];
+    }
 	topbar.autoresizingMask = UIViewAutoresizingNone | UIViewAutoresizingFlexibleWidth;
 	if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) {
 		[topbar setBarStyle:UIBarStyleBlack];
 	}
 	
 	topbar_BarDelegate *delegate = [[topbar_BarDelegate alloc] init];
-	topbar.delegate = delegate;
-	
+    topbar.delegate = delegate;
+
 	// Add the title
 	UINavigationItem *title = [[UINavigationItem alloc] initWithTitle:[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"]];
 	[topbar pushNavigationItem:title animated:NO];

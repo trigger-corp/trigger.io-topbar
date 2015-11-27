@@ -17,7 +17,6 @@
 		B31279F016AD94880027B9B8 /* topbar_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = B31279EF16AD94880027B9B8 /* topbar_Util.m */; };
 		B31B6D5215C13D5200854074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B6D5115C13D5200854074 /* Foundation.framework */; };
 		B31B6D6F15C1467100854074 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B6D6E15C1467100854074 /* CoreFoundation.framework */; };
-		B37C3A5D162717A200B50A60 /* ForgeCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37C3A5C162717A200B50A60 /* ForgeCore.framework */; };
 		B3CCE5F217D0E46600CB9701 /* UINavigationBarBackIndicatorDefault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3CCE5F117D0E46600CB9701 /* UINavigationBarBackIndicatorDefault@2x.png */; };
 		B3F641B217D61D4400614D30 /* UINavigationBarBackIndicatorDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = B3F641B117D61D4400614D30 /* UINavigationBarBackIndicatorDefault.png */; };
 		B3FC51F815C151E5003574D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC51F715C151E5003574D9 /* UIKit.framework */; };
@@ -43,7 +42,6 @@
 		B31B6D5115C13D5200854074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B31B6D6D15C1467100854074 /* topbar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = topbar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31B6D6E15C1467100854074 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		B37C3A5C162717A200B50A60 /* ForgeCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ForgeCore.framework; path = ../ForgeCore.framework; sourceTree = "<group>"; };
 		B3CCE5F117D0E46600CB9701 /* UINavigationBarBackIndicatorDefault@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UINavigationBarBackIndicatorDefault@2x.png"; sourceTree = "<group>"; };
 		B3F641B117D61D4400614D30 /* UINavigationBarBackIndicatorDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UINavigationBarBackIndicatorDefault.png; sourceTree = "<group>"; };
 		B3FC51F715C151E5003574D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -62,7 +60,6 @@
 				B3FC51FF15C1523D003574D9 /* CoreGraphics.framework in Frameworks */,
 				B3FC51F815C151E5003574D9 /* UIKit.framework in Frameworks */,
 				B31B6D5215C13D5200854074 /* Foundation.framework in Frameworks */,
-				B37C3A5D162717A200B50A60 /* ForgeCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +108,6 @@
 		B31B6D5015C13D5200854074 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B37C3A5C162717A200B50A60 /* ForgeCore.framework */,
 				B3FC524715C17B2C003574D9 /* SystemConfiguration.framework */,
 				B3FC524115C177EA003574D9 /* AssetsLibrary.framework */,
 				B3FC51FE15C1523D003574D9 /* CoreGraphics.framework */,
@@ -164,7 +160,7 @@
 		B31B6D4515C13D5200854074 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Trigger Corp";
 			};
 			buildConfigurationList = B31B6D4815C13D5200854074 /* Build configuration list for PBXProject "ForgeModule" */;
@@ -237,9 +233,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -274,8 +272,10 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -356,7 +356,7 @@
 		B31B6D7915C1467100854074 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
