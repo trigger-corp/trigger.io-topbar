@@ -1,9 +1,9 @@
 {
-	"changes": "* Fixed: The topbar did not hide properly on an iPad 2 running iOS 9 when `core.ios.device_family` was set to `iphone`.",
+	"changes": "* Fixed: On iOS9 the topbar title and buttons would be vertically offset when the device is in landscape orientation.",
 	"description": "Add a fixed navigation bar to the top of your app.\n\nThe topbar module provides a native title and navigation bar at the top of your app. You can add and configure buttons, set the title and icons from JavaScript.",
 	"min_platform_version": "v2.2.17",
 	"namespace": "topbar",
 	"platform_version": "v2.2.17",
-	"version": "2.8",
+	"version": "2.9",
 	"dependencies": {}
 }

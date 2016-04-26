@@ -50,7 +50,12 @@ UINavigationBar *topbar;
 	if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) {
 		[topbar setBarStyle:UIBarStyleBlack];
 	}
-	
+
+    // Fix for: http://stackoverflow.com/questions/32865192/ios-9-unwanted-margin-in-uinavigationbar-landscape
+    if (floor(NSFoundationVersionNumber) >= NSFoundationVersionNumber10_9) {
+        [topbar setTitleVerticalPositionAdjustment:-6 forBarMetrics:UIBarMetricsCompact];
+    }
+
 	topbar_BarDelegate *delegate = [[topbar_BarDelegate alloc] init];
     topbar.delegate = delegate;
 
