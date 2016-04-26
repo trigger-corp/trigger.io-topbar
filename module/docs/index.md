@@ -52,6 +52,12 @@ colored status bar and not a topbar.
 !platforms: iOS, Android
 !param: error `function(content)` called with details of any error which may occur
 
+!method: forge.topbar.setTranslucent(translucent, success, error)
+!param: translucent `bool` Sets whether TopBar translucency is enabled or not.
+!param: success `function()` callback to be invoked when no errors occur
+!description: Set the translucency effect for the TopBar on iOS.
+!platforms: iOS
+!param: error `function(content)` called with details of any error which may occur
 
 !method: forge.topbar.setStatusBarStyle(style, success, error)
 !platforms: iOS 7 only
@@ -63,7 +69,7 @@ colored status bar and not a topbar.
 !method: forge.topbar.addButton(params, callback, error)
 !param: params `object` button options, must contain at least ``icon`` or ``text``
 !param: callback `function()` callback to be invoked each time the button is pressed
-!description: Add a button with an icon to the top bar. 
+!description: Add a button with an icon to the top bar.
 !platforms: iOS, Android
 !param: error `function(content)` called with details of any error which may occur
 
@@ -88,12 +94,12 @@ The first parameter is an object describing the button with the following proper
 
 **Example**:
 
-    forge.topbar.addButton({
-      text: "Search",
-      position: "left"
-    }, function () {
-      alert("Search pressed");
-    });
+	forge.topbar.addButton({
+	  text: "Search",
+	  position: "left"
+	}, function () {
+	  alert("Search pressed");
+	});
 
 !method: forge.topbar.removeButtons(success, error)
 !param: success `function()` callback to be invoked when no errors occur

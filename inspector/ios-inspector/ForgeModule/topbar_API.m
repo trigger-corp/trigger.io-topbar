@@ -146,6 +146,13 @@ static bool hidden = NO;
     [task success:nil];
 }
 
++ (void)setTranslucent:(ForgeTask *)task translucent:(NSNumber*)translucent {
+    if ([topbar respondsToSelector:@selector(setTranslucent:)]) {
+        [topbar setTranslucent:[translucent boolValue]];
+    }
+    [task success:nil];
+}
+
 + (void)addButton:(ForgeTask*)task {
 	UINavigationItem *navItem = ((UINavigationItem*)[topbar.items objectAtIndex:0]);
 
