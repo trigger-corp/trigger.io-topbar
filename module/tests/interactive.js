@@ -219,4 +219,223 @@ if (forge.is.mobile()) {
 			start();
 		});
 	});
+
+	asyncTest("Image Title Centering - left", 1, function() {
+		forge.topbar.removeButtons(function () {
+			forge.topbar.setTitleImage("fixtures/topbar/titleimage.png");
+			forge.topbar.addButton({
+				icon: "fixtures/topbar/1.png",
+				prerendered: true,
+				position: "left"
+			});
+			askQuestion("Is the topbar title image centered?", {
+				Yes: function () {
+					ok(true, "Success");
+					start();
+				},
+				No: function () {
+					ok(false, "User claims failure");
+					start();
+				}
+			});
+		});
+	});
+
+	asyncTest("Image Title Centering - left small", 1, function() {
+		forge.topbar.removeButtons(function () {
+			forge.topbar.setTitleImage("fixtures/topbar/titleimage-small.png");
+			forge.topbar.addButton({
+				icon: "fixtures/topbar/1.png",
+				prerendered: true,
+				position: "left"
+			});
+			askQuestion("Is the topbar title image centered?", {
+				Yes: function () {
+					ok(true, "Success");
+					start();
+				},
+				No: function () {
+					ok(false, "User claims failure");
+					start();
+				}
+			});
+		});
+	});
+
+	asyncTest("Image Title Centering - wide", 1, function() {
+		forge.topbar.removeButtons(function () {
+			forge.topbar.setTitleImage("fixtures/topbar/titleimage-wide.png");
+			forge.topbar.addButton({
+				icon: "fixtures/topbar/1.png",
+				prerendered: true,
+				position: "left"
+			});
+			askQuestion("Is the topbar title image centered?", {
+				Yes: function () {
+					ok(true, "Success");
+					start();
+				},
+				No: function () {
+					ok(false, "User claims failure");
+					start();
+				}
+			});
+		});
+	});
+
+	asyncTest("Image Title Centering - tall", 1, function() {
+		forge.topbar.removeButtons(function () {
+			forge.topbar.setTitleImage("fixtures/topbar/titleimage-tall.png");
+			forge.topbar.addButton({
+				icon: "fixtures/topbar/1.png",
+				prerendered: true,
+				position: "left"
+			});
+			askQuestion("Is the topbar title image centered?", {
+				Yes: function () {
+					ok(true, "Success");
+					start();
+				},
+				No: function () {
+					ok(false, "User claims failure");
+					start();
+				}
+			});
+		});
+	});
+
+	asyncTest("Image Title Centering - right", 1, function() {
+		forge.topbar.removeButtons(function () {
+			forge.topbar.setTitleImage("fixtures/topbar/titleimage.png");
+			forge.topbar.addButton({
+				icon: "fixtures/topbar/2.png",
+				prerendered: true,
+				position: "right"
+			});
+			askQuestion("Is the topbar title image centered?", {
+				Yes: function () {
+					ok(true, "Success");
+					start();
+				},
+				No: function () {
+					ok(false, "User claims failure");
+					start();
+				}
+			});
+		});
+	});
+
+	asyncTest("Image Title Centering - right small", 1, function() {
+		forge.topbar.removeButtons(function () {
+			forge.topbar.setTitleImage("fixtures/topbar/titleimage-small.png");
+			forge.topbar.addButton({
+				icon: "fixtures/topbar/2.png",
+				prerendered: true,
+				position: "right"
+			});
+			askQuestion("Is the topbar title image centered?", {
+				Yes: function () {
+					ok(true, "Success");
+					start();
+				},
+				No: function () {
+					ok(false, "User claims failure");
+					start();
+				}
+			});
+		});
+	});
+
+	asyncTest("Image Title Centering - both", 1, function() {
+		forge.topbar.removeButtons(function () {
+			forge.topbar.setTitleImage("fixtures/topbar/titleimage.png");
+			forge.topbar.addButton({
+				text: "left",
+				position: "left"
+			});
+			forge.topbar.addButton({
+				icon: "fixtures/topbar/2.png",
+				prerendered: true,
+				position: "right"
+			});
+			askQuestion("Is the topbar title image centered?", {
+				Yes: function () {
+					ok(true, "Success");
+					start();
+				},
+				No: function () {
+					ok(false, "User claims failure");
+					start();
+				}
+			});
+		});
+	});
+
+	asyncTest("Image Title Centering - both small", 1, function() {
+		forge.topbar.removeButtons(function () {
+			forge.topbar.setTitleImage("fixtures/topbar/titleimage-small.png");
+			forge.topbar.addButton({
+				text: "left",
+				position: "left"
+			});
+			forge.topbar.addButton({
+				icon: "fixtures/topbar/2.png",
+				prerendered: true,
+				position: "right"
+			});
+			askQuestion("Is the topbar title image centered?", {
+				Yes: function () {
+					ok(true, "Success");
+					start();
+				},
+				No: function () {
+					ok(false, "User claims failure");
+					start();
+				}
+			});
+		});
+	});
+
+	asyncTest("Title Text Centering - left", 1, function() {
+		forge.topbar.removeButtons(function () {
+			forge.topbar.setTitle("TopBar Module");
+			forge.topbar.addButton({
+				icon: "fixtures/topbar/1.png",
+				prerendered: true,
+				position: "left"
+			});
+			askQuestion("Is the topbar title text centered?", {
+				Yes: function () {
+					ok(true, "Success");
+					start();
+				},
+				No: function () {
+					ok(false, "User claims failure");
+					start();
+				}
+			});
+		});
+	});
+
+	asyncTest("Title Text Centering - right", 1, function() {
+		forge.topbar.removeButtons(function () {
+			forge.topbar.setTitle("TopBar Module");
+			forge.topbar.addButton({
+				icon: "fixtures/topbar/2.png",
+				prerendered: true,
+				position: "right"
+			});
+			askQuestion("Is the topbar title text centered?", {
+				Yes: function () {
+					ok(true, "Success");
+					start();
+				},
+				No: function () {
+					ok(false, "User claims failure");
+					start();
+				}
+			});
+		});
+	});
+
 }

@@ -108,12 +108,30 @@ static bool hidden = NO;
 		}
 		
 		UIImageView *titleImageView = [[UIImageView alloc] initWithImage:titleImage];
-		// Scale down the image if too big
-		if ([titleImageView frame].size.height > [topbar frame].size.height) {
-			[titleImageView setFrame:CGRectInset([titleImageView frame], 0, floor(([titleImageView frame].size.height-[topbar frame].size.height)/2))];
-		}
-		[titleImageView setContentMode:UIViewContentModeScaleAspectFit];
-		navItem.titleView = titleImageView;
+
+		// Scale down the image if too high
+        if ([titleImageView frame].size.height > [topbar frame].size.height) {
+            float inset = floor(([titleImageView frame].size.height - [topbar frame].size.height) / 2); // 18
+            [titleImageView setFrame:CGRectInset([titleImageView frame], 0, inset)];
+        }
+
+        // Scale down the image if too wide
+        if ([titleImageView frame].size.width > 200.0) {
+            titleImageView.frame = CGRectMake(0.0,
+                                              0.0,
+                                              [titleImageView frame].size.width - 160.0,
+                                              [titleImageView frame].size.height - 4.0);
+        }
+
+        // Scale to fit while maintaining aspect ratio
+        [titleImageView setContentMode:UIViewContentModeScaleAspectFit];
+
+        // Host image in a UIView subview so it stays centered
+        UIView *headerView = [[UIView alloc] init];
+        [headerView setFrame:[titleImageView frame]];
+        [headerView addSubview:titleImageView];
+        navItem.titleView = headerView;
+
 		[task success:nil];
 		
 	} errorBlock:^(NSError *error) {

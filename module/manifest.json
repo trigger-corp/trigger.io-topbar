@@ -1,9 +1,9 @@
 {
-	"changes": "* New method: `topbar.setTranslucent` to control TopBar transparency effect on iOS.",
+	"changes": "* Fixed: Wide title images do not center properly on iOS",
 	"description": "Add a fixed navigation bar to the top of your app.\n\nThe topbar module provides a native title and navigation bar at the top of your app. You can add and configure buttons, set the title and icons from JavaScript.",
-	"min_platform_version": "v2.2.17",
+	"min_platform_version": "v2.4.5",
 	"namespace": "topbar",
-	"platform_version": "v2.2.17",
-	"version": "2.10",
+	"platform_version": "v2.4.5",
+	"version": "2.11",
 	"dependencies": {}
 }

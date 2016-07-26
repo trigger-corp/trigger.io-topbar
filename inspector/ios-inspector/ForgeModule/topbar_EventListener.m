@@ -55,6 +55,9 @@ UINavigationBar *topbar;
     if (floor(NSFoundationVersionNumber) >= NSFoundationVersionNumber10_9) {
         [topbar setTitleVerticalPositionAdjustment:-6 forBarMetrics:UIBarMetricsCompact];
     }
+    // ^^^
+    // This breaks when UIViewControllerBasedStatusBarAppearance is set to NO in app .plist by other modules (e.g. tabs)
+    // Workaround TBD.
 
 	topbar_BarDelegate *delegate = [[topbar_BarDelegate alloc] init];
     topbar.delegate = delegate;
