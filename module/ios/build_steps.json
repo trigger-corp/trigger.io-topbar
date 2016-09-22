@@ -1,0 +1,10 @@
+[
+	{
+		"do": {
+			"set_in_info_plist": {
+				"key": "UIStatusBarStyle",
+				"value": "{{modules.topbar.config.statusBarStyle}}"
+			}
+		}
+	}
+]

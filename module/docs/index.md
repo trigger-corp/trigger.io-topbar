@@ -6,6 +6,13 @@ and provides a JavaScript API to modify it at runtime.
 
 To get an idea of how these headers can look, see our blog post, [How to build hybrid mobile apps combining native UI components with HTML5](http://trigger.io/cross-platform-application-development-blog/2012/04/30/how-to-build-hybrid-mobile-apps-combining-native-ui-components-with-html5/).
 
+
+##Config options
+
+statusBarStyle
+:	Sets the status bar style on iOS, `UIStatusBarStyleDefault` will use black text, `UIStatusBarStyleLightContent` will use white text.
+
+
 ##API
 
 !method: forge.topbar.show(success, error)
