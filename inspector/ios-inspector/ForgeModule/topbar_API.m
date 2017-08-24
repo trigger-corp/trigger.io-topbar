@@ -18,6 +18,8 @@ extern UIStatusBarStyle topbar_statusBarStyle;
 
 static bool hidden = NO;
 
+static UIColor *originalTintColor = NULL;
+
 + (void)show:(ForgeTask*)task {
 	if (hidden) {
 		// Resize webview
@@ -140,18 +142,20 @@ static bool hidden = NO;
 }
 
 + (void)setTint:(ForgeTask *)task color:(NSArray*)color {
-	UIColor *uiColor = [UIColor colorWithRed:[(NSNumber*)[color objectAtIndex:0] floatValue]/255 green:[(NSNumber*)[color objectAtIndex:1] floatValue]/255 blue:[(NSNumber*)[color objectAtIndex:2] floatValue]/255 alpha:[(NSNumber*)[color objectAtIndex:3] floatValue]/255];
-	
-	if ([ForgeApp sharedApp].statusBarBox) {
-		[[ForgeApp sharedApp].statusBarBox setBarTintColor:uiColor];
-	}
+	UIColor *uiColor = [UIColor colorWithRed:[(NSNumber*)[color objectAtIndex:0] floatValue]/255.0f green:[(NSNumber*)[color objectAtIndex:1] floatValue]/255.0f blue:[(NSNumber*)[color objectAtIndex:2] floatValue]/255.0f alpha:[(NSNumber*)[color objectAtIndex:3] floatValue]/255.0f];
 
-	[topbar setBarStyle:UIBarStyleDefault];
-	if ([topbar respondsToSelector:@selector(setBarTintColor:)]) {
-		[topbar setBarTintColor:uiColor];
-	} else {
-		[topbar setTintColor:uiColor];
-	}
+    // needed to restore translucency
+    if (originalTintColor == NULL) {
+        CGFloat red, green, blue, alpha;
+        [topbar.tintColor getRed:&red green:&green blue:&blue alpha:&alpha];
+        originalTintColor = [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
+    }
+
+    if ([topbar respondsToSelector:@selector(setBarTintColor:)]) {
+        [topbar setBarTintColor:uiColor];
+    } else {
+        [topbar setTintColor:uiColor];
+    }
 	[task success:nil];
 }
 
@@ -166,6 +170,11 @@ static bool hidden = NO;
 
 + (void)setTranslucent:(ForgeTask *)task translucent:(NSNumber*)translucent {
     if ([topbar respondsToSelector:@selector(setTranslucent:)]) {
+        if ([translucent boolValue] == YES && originalTintColor != NULL) {
+            topbar.backgroundColor = NULL;
+            topbar.barTintColor = NULL;
+            topbar.tintColor = originalTintColor;
+        }
         [topbar setTranslucent:[translucent boolValue]];
     }
     [task success:nil];

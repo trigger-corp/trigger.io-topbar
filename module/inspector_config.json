@@ -1,9 +1,8 @@
 {
 	"this_module": {
 		"config": {
-			"statusBarStyle": "UIStatusBarStyleDefault"
+			"statusBarStyle": "UIStatusBarStyleLightContent"
 		}
 	},
-	"modules": {
-	}
+	"modules": {}
 }

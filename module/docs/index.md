@@ -67,11 +67,11 @@ colored status bar and not a topbar.
 !param: error `function(content)` called with details of any error which may occur
 
 !method: forge.topbar.setStatusBarStyle(style, success, error)
-!platforms: iOS 7 only
+!platforms: iOS only
 !param: style `string` either ``"default`` or ``"light_content"``.
 !param: success `function()` callback to be invoked when no errors occur
 !param: error `function(content)` called with details of any error which may occur
-!description: Set the status bar style on iOS 7, default will use black text, light_content will use white text.
+!description: Set the status bar style on iOS, default will use black text, light_content will use white text.
 
 !method: forge.topbar.addButton(params, callback, error)
 !param: params `object` button options, must contain at least ``icon`` or ``text``
@@ -97,16 +97,16 @@ The first parameter is an object describing the button with the following proper
    ``right``. If not specified the first free space will be used.
 -  ``tint``: The color of the button, defined as an array similar to
    ``setTint``.
--  ``prerendered``: (Android and iOS 7 only) If true and an icon is provided the icon will not be modified when displayed, if false (or missing) the icon will be coloured with the tint colour.
+-  ``prerendered``: If true and an icon is provided the icon will not be modified when displayed, if false (or missing) the icon will be coloured with the tint colour.
 
 **Example**:
 
-	forge.topbar.addButton({
-	  text: "Search",
-	  position: "left"
-	}, function () {
-	  alert("Search pressed");
-	});
+    forge.topbar.addButton({
+      text: "Search",
+      position: "left"
+    }, function () {
+      alert("Search pressed");
+    });
 
 !method: forge.topbar.removeButtons(success, error)
 !param: success `function()` callback to be invoked when no errors occur
