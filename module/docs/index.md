@@ -63,7 +63,7 @@ colored status bar and not a topbar.
 !param: translucent `bool` Sets whether TopBar translucency is enabled or not.
 !param: success `function()` callback to be invoked when no errors occur
 !description: Set the translucency effect for the TopBar on iOS.
-!platforms: iOS
+!platforms: **Deprecated** Use `setTint` instead.
 !param: error `function(content)` called with details of any error which may occur
 
 !method: forge.topbar.setStatusBarStyle(style, success, error)

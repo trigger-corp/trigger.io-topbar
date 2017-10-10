@@ -9,38 +9,32 @@
 #import <WebKit/WebKit.h>
 #import "topbar_Delegate.h"
 
-extern UINavigationBar *topbar;
-
 @implementation topbar_Delegate
 
 - (topbar_Delegate*) initWithId:(NSString *)newId {
-	if (self = [super init]) {
-		callId = newId;
-		// "retain"
-		me = self;
-	}	
-	return self;
+    if (self = [super init]) {
+        callId = newId;
+        // "retain"
+        me = self;
+    }
+    return self;
 }
 
 
 - (void) clicked {
-    if ([callId isEqualToString:@"back"] && NSClassFromString(@"WKWebView") && [[ForgeApp sharedApp] useWKWebView]) {
-        WKWebView *webView = (WKWebView*)[[ForgeApp sharedApp] webView];
-        if ([webView canGoBack]) {
-            [webView goBack];
-        }
-        
-    } else if ([callId isEqualToString:@"back"]) {
-        UIWebView *webView = (UIWebView*)[[ForgeApp sharedApp] webView];
-        if ([webView canGoBack]) {
-            [webView goBack];
-        }
-        
+    if ([callId isEqualToString:@"back"]) {
+        withWebView(webView, {
+            if ([webView canGoBack]) {
+                [webView goBack];
+            }
+        });
     } else {
         NSString *eventName = [NSString stringWithFormat:@"topbar.buttonPressed.%@", callId];
         [[ForgeApp sharedApp] event:eventName withParam:[NSNull null]];
     }
 }
+
+
 - (void) releaseDelegate {
     me = nil;
 }

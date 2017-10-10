@@ -2,87 +2,7 @@
 
 module("forge.topbar");
 
-if (forge.is.ios()) {
-
-    asyncTest("Disable status bar translucency, iOS", 1, function() {
-        forge.topbar.setTranslucent(false, function () {
-            askQuestion("Status bar/topbar should no longer be translucent", {
-                Yes: function () {
-                    ok(true, "User claims success");
-                    start();
-                },
-                No: function () {
-                    ok(false, "User claims failure");
-                    start();
-                }
-            });
-        }, function () {
-            ok(true, "Not available");
-            start();
-        });
-    });
-
-    asyncTest("Enable status bar translucency, iOS", 1, function() {
-        forge.topbar.setTranslucent(true, function () {
-            askQuestion("Status bar/topbar should be translucent", {
-                Yes: function () {
-                    ok(true, "User claims success");
-                    start();
-                },
-                No: function () {
-                    ok(false, "User claims failure");
-                    start();
-                }
-            });
-        }, function () {
-            ok(true, "Not available");
-            start();
-        });
-    });
-
-    asyncTest("Set status bar style, iOS", 1, function() {
-        forge.topbar.setTint([0, 0, 0, 255]);
-        forge.topbar.setStatusBarStyle('light_content', function () {
-            askQuestion("Status bar/topbar should be black with white text", {
-                Yes: function () {
-                    ok(true, "User claims success");
-                    start();
-                },
-                No: function () {
-                    ok(false, "User claims failure");
-                    start();
-                }
-            });
-        }, function () {
-            ok(true, "Not available");
-            start();
-        });
-    });
-
-    asyncTest("Set status bar style, iOS", 1, function() {
-        forge.topbar.setTint([255, 255, 255, 255]);
-        forge.topbar.setStatusBarStyle('default', function () {
-            askQuestion("Status bar/topbar should be white with black text", {
-                Yes: function () {
-                    ok(true, "User claims success");
-                    start();
-                },
-                No: function () {
-                    ok(false, "User claims failure");
-                    start();
-                }
-            });
-        }, function () {
-            ok(true, "Not available");
-            start();
-        });
-    });
-
-}
-
-
 asyncTest("Initial state", 1, function() {
-    forge.topbar.setTranslucent(true);
     askQuestion("Is a top bar visible with the app name as the title and no buttons?", {
         Yes: function () {
             ok(true, "Success");
@@ -94,6 +14,7 @@ asyncTest("Initial state", 1, function() {
         }
     });
 });
+
 asyncTest("Title", 1, function() {
     forge.topbar.setTitle("héllø, world!");
     askQuestion("Is the title now 'héllø, World!'?", {
@@ -107,6 +28,7 @@ asyncTest("Title", 1, function() {
         }
     });
 });
+
 asyncTest("Hide", 1, function() {
     forge.topbar.hide();
     askQuestion("Is the topbar now hidden?", {
@@ -120,6 +42,7 @@ asyncTest("Hide", 1, function() {
         }
     });
 });
+
 asyncTest("Show", 1, function() {
     forge.topbar.show();
     askQuestion("Is the topbar now visible again?", {
@@ -133,6 +56,7 @@ asyncTest("Show", 1, function() {
         }
     });
 });
+
 asyncTest("Add a button", 1, function() {
     forge.topbar.addButton({icon: "fixtures/topbar/1.png", prerendered: true}, runOnce(function () {
         ok(true, "Success");
@@ -145,6 +69,7 @@ asyncTest("Add a button", 1, function() {
         }
     });
 });
+
 asyncTest("Add a button", 1, function() {
     forge.topbar.removeButtons(function () {
         forge.topbar.addButton({icon: "fixtures/topbar/2.png"}, runOnce(function () {
@@ -159,6 +84,7 @@ asyncTest("Add a button", 1, function() {
         });
     });
 });
+
 asyncTest("Add a 2nd button", 1, function() {
     forge.topbar.addButton({text: "€2"}, runOnce(function () {
         ok(true, "Success");
@@ -171,6 +97,7 @@ asyncTest("Add a 2nd button", 1, function() {
         }
     });
 });
+
 asyncTest("Remove button", 1, function() {
     forge.topbar.removeButtons();
     askQuestion("Are the buttons gone?", {
@@ -184,6 +111,7 @@ asyncTest("Remove button", 1, function() {
         }
     });
 });
+
 asyncTest("Add a button - done", 1, function() {
     forge.topbar.addButton({text: "ØK", style: "done"}, runOnce(function () {
         ok(true, "Success");
@@ -198,6 +126,7 @@ asyncTest("Add a button - done", 1, function() {
         }
     });
 });
+
 asyncTest("Title - Image", 1, function() {
     forge.topbar.setTitleImage("fixtures/topbar/3.png");
     askQuestion("Is the title an image with the number 3?", {
@@ -211,6 +140,7 @@ asyncTest("Title - Image", 1, function() {
         }
     });
 });
+
 asyncTest("Title - back to text", 1, function() {
     forge.topbar.setTitle("†î†lé");
     askQuestion("Is the title now 'Title'?", {
@@ -224,46 +154,8 @@ asyncTest("Title - back to text", 1, function() {
         }
     });
 });
-asyncTest("Tint", 1, function() {
-    forge.topbar.setTint([150,255,150,255]);
-    askQuestion("Is the bar now green?", {
-        Yes: function () {
-            ok(true, "Success");
-            start();
-        },
-        No: function () {
-            ok(false, "User claims failure");
-            start();
-        }
-    });
-});
-asyncTest("TitleTint", 1, function() {
-    forge.topbar.setTitleTint([255,0,0,255]);
-    askQuestion("Is the bar now green with red text?", {
-        Yes: function () {
-            ok(true, "Success");
-            start();
-        },
-        No: function () {
-            ok(false, "User claims failure");
-            start();
-        }
-    });
-});
-asyncTest("Add a button - tint", 1, function() {
-    forge.topbar.addButton({text: "®é∂", tint: [255,0,0,255]}, runOnce(function () {
-        ok(true, "Success");
-        forge.topbar.removeButtons();
-        start();
-    }));
-    askQuestion("Press the button if it shows '®é∂' and is red", {
-        "Nothing happens or the button is not as described": function () {
-            ok(false, "User claims failure");
-            forge.topbar.removeButtons();
-            start();
-        }
-    });
-});
+
+
 asyncTest("Add a button - back", 1, function() {
     window.location.hash = "foo";
     window.location.hash = "bar";
@@ -498,3 +390,116 @@ asyncTest("Title Text Centering - right", 1, function() {
         });
     });
 });
+
+
+asyncTest("Tint", 1, function() {
+    forge.topbar.setTint([150,255,150,128]);
+    askQuestion("Is the bar now translucent green?", {
+        Yes: function () {
+            ok(true, "Success");
+            start();
+        },
+        No: function () {
+            ok(false, "User claims failure");
+            start();
+        }
+    });
+});
+
+asyncTest("TitleTint", 1, function() {
+    forge.topbar.setTitleTint([255,0,0,255]);
+    askQuestion("Is the bar now translucent green with red text?", {
+        Yes: function () {
+            ok(true, "Success");
+            start();
+        },
+        No: function () {
+            ok(false, "User claims failure");
+            start();
+        }
+    });
+});
+
+asyncTest("Tint", 1, function() {
+    forge.topbar.setTint([150,255,150,255]);
+    askQuestion("Is the bar now solid green?", {
+        Yes: function () {
+            ok(true, "Success");
+            start();
+        },
+        No: function () {
+            ok(false, "User claims failure");
+            start();
+        }
+    });
+});
+
+asyncTest("TitleTint", 1, function() {
+    forge.topbar.setTitleTint([255,0,0,255]);
+    askQuestion("Is the bar now green with red text?", {
+        Yes: function () {
+            ok(true, "Success");
+            start();
+        },
+        No: function () {
+            ok(false, "User claims failure");
+            start();
+        }
+    });
+});
+
+asyncTest("Add a button - tint", 1, function() {
+    forge.topbar.addButton({text: "®é∂", tint: [255,0,0,255]}, runOnce(function () {
+        ok(true, "Success");
+        forge.topbar.removeButtons();
+        start();
+    }));
+    askQuestion("Press the button if it shows '®é∂' and is red", {
+        "Nothing happens or the button is not as described": function () {
+            ok(false, "User claims failure");
+            forge.topbar.removeButtons();
+            start();
+        }
+    });
+});
+
+
+if (forge.is.ios()) {
+    asyncTest("Set status bar style, iOS", 1, function() {
+        forge.topbar.setTint([0, 0, 0, 255]);
+        forge.topbar.setStatusBarStyle('light_content', function () {
+            askQuestion("Status bar/topbar should be black with white text", {
+                Yes: function () {
+                    ok(true, "User claims success");
+                    start();
+                },
+                No: function () {
+                    ok(false, "User claims failure");
+                    start();
+                }
+            });
+        }, function () {
+            ok(true, "Not available");
+            start();
+        });
+    });
+
+    asyncTest("Set status bar style, iOS", 1, function() {
+        forge.topbar.setTint([255, 255, 255, 255]);
+        forge.topbar.setStatusBarStyle('default', function () {
+            askQuestion("Status bar/topbar should be white with black text", {
+                Yes: function () {
+                    ok(true, "User claims success");
+                    start();
+                },
+                No: function () {
+                    ok(false, "User claims failure");
+                    start();
+                }
+            });
+        }, function () {
+            ok(true, "Not available");
+            start();
+        });
+    });
+}
