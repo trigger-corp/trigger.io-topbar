@@ -1,9 +1,9 @@
 {
-    "changes": "* iPhone-X Support\n* Deprecated method `setTranslucent`",
+    "changes": "* Only use this version with the v2.7 betas\n* Android 'P' support",
     "description": "Add a fixed navigation bar to the top of your app.\n\nThe topbar module provides a native title and navigation bar at the top of your app. You can add and configure buttons, set the title and icons from JavaScript.",
-    "min_platform_version": "v2.6.2",
+    "min_platform_version": "v2.7.1beta-1",
     "namespace": "topbar",
-    "platform_version": "v2.6.2",
-    "version": "2.14",
+    "platform_version": "v2.7.1beta-1",
+    "version": "2.15",
     "dependencies": {}
 }
