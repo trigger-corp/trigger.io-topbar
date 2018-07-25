@@ -35,13 +35,11 @@ UIStatusBarStyle topbar_statusBarStyle = UIStatusBarStyleDefault;
 @implementation topbar_EventListener
 
 + (void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    if ([[[[ForgeApp sharedApp] configForModule:@"topbar"] objectForKey:@"statusBarStyle"] isEqualToString:@"UIStatusBarStyleLightContent"]) {
-        topbar_statusBarStyle = UIStatusBarStyleLightContent;
-    } else {
-        topbar_statusBarStyle = UIStatusBarStyleDefault;
+    NSString *style = [[[ForgeApp sharedApp] configForModule:@"topbar"] objectForKey:@"statusBarStyle"];
+    if (style) {
+        [ForgeLog d:@"topbar.statusBarStyle is deprecated. See display module config."];
     }
-    application.statusBarStyle = topbar_statusBarStyle;
-
+    
     // Show topbar by default
     ForgeApp.sharedApp.viewController.navigationBarHidden = NO;
 }
@@ -66,9 +64,5 @@ UIStatusBarStyle topbar_statusBarStyle = UIStatusBarStyleDefault;
     navItem.title = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
 }
 
-
-+ (NSNumber *)preferredStatusBarStyle {
-    return [NSNumber numberWithInt:topbar_statusBarStyle];
-}
 
 @end

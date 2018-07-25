@@ -37,6 +37,6 @@ forge['topbar'] = {
         forge.internal.call("topbar.removeButtons", {}, success, error);
     },
     'setStatusBarStyle': function (style, success, error) {
-        forge.internal.call("topbar.setStatusBarStyle", {style: style}, success, error);
+        forge.internal.call("layout.setStatusBarStyle", {style: style}, success, error);
     }
 };

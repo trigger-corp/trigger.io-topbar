@@ -94,22 +94,6 @@ extern UIStatusBarStyle topbar_statusBarStyle;
 }
 
 
-+ (void)setStatusBarStyle:(ForgeTask*)task style:(NSString*)style {
-    UINavigationBar *navigationBar = ForgeApp.sharedApp.viewController.navigationBar;
-
-    if ([style isEqualToString:@"light_content"]) {
-        topbar_statusBarStyle = UIStatusBarStyleLightContent;
-        navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:UITextAttributeTextColor];
-    } else {
-        topbar_statusBarStyle = UIStatusBarStyleDefault;
-        navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIColor blackColor] forKey:UITextAttributeTextColor];
-    }
-
-    [[ForgeApp sharedApp].viewController setNeedsStatusBarAppearanceUpdate];
-    [task success:nil];
-}
-
-
 + (void)setTint:(ForgeTask *)task color:(NSArray*)color {
     UIView *blurView = ForgeApp.sharedApp.viewController.blurView;
     UIColor *uiColor = [UIColor colorWithRed:[(NSNumber*)[color objectAtIndex:0] floatValue]/255.0f green:[(NSNumber*)[color objectAtIndex:1] floatValue]/255.0f blue:[(NSNumber*)[color objectAtIndex:2] floatValue]/255.0f alpha:[(NSNumber*)[color objectAtIndex:3] floatValue]/255.0f];

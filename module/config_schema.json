@@ -1,12 +1,13 @@
 {
-	"type": "object",
-	"additionalProperties": false,
-	"properties": {
-		"statusBarStyle": {
-			"description": "Initial style of the iOS status bar when the app is loaded.",
-			"required": false,
-			"type": "string",
-			"enum": [ "UIStatusBarStyleDefault", "UIStatusBarStyleLightContent" ]
-		}
-	}
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "statusBarStyle": {
+            "description": "Deprecated. Use `display.statusbar.ios.style` instead.",
+            "required": false,
+            "type": "string",
+            "enum": [ "UIStatusBarStyleDefault", "UIStatusBarStyleLightContent" ],
+            "_hide": true
+        }
+    }
 }

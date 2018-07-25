@@ -7,13 +7,13 @@ and provides a JavaScript API to modify it at runtime.
 To get an idea of how these headers can look, see our blog post, [How to build hybrid mobile apps combining native UI components with HTML5](http://trigger.io/cross-platform-application-development-blog/2012/04/30/how-to-build-hybrid-mobile-apps-combining-native-ui-components-with-html5/).
 
 
-##Config options
+## Config options
 
 statusBarStyle
-:	Sets the status bar style on iOS, `UIStatusBarStyleDefault` will use black text, `UIStatusBarStyleLightContent` will use white text.
+:	**Deprecated** Use `display.statusbar.ios.style` instead.
 
 
-##API
+## API
 
 !method: forge.topbar.show(success, error)
 !param: success `function()` callback to be invoked when no errors occur
@@ -67,7 +67,7 @@ colored status bar and not a topbar.
 !param: error `function(content)` called with details of any error which may occur
 
 !method: forge.topbar.setStatusBarStyle(style, success, error)
-!platforms: iOS only
+!platforms: **Deprecated** Use `forge.display.setStatusBarStyle` instead.
 !param: style `string` either ``"default`` or ``"light_content"``.
 !param: success `function()` callback to be invoked when no errors occur
 !param: error `function(content)` called with details of any error which may occur
@@ -114,22 +114,22 @@ The first parameter is an object describing the button with the following proper
 !platforms: iOS, Android
 !param: error `function(content)` called with details of any error which may occur
 
-##Style Guidlines
+
+## Style Guidlines
 
 The [forge.topbar.setTitleImage](index.html#forgetopbarsettitleimageimage-success-error) method and ``icon`` option in the [forge.topbar.addButton](index.html#forgetopbaraddbuttonparams-callback-error)
 method allow you to specify images within the topbar element. These
 guidelines may help you to make them look good across devices:
 
--  The title image will be scaled down (but not up) to fit the
-height of the topbar exactly. This means any padding should be
-included in the image, and the image should be at least 100px
-high.
--  The button icons will also be scaled down (but not up) to fit the
-height of the button precisely. The width of the button is the
-width of the icon (or text) plus a small amount of padding. We'd
-recommend button icons are at least 64px high to make sure they
-always fill the button.
--  The total width of the title and buttons is not checked by Forge,
-so its up to you to test everything fits, We'd recommend leaving
-spare space to make sure devices with unexpected screen ratios
-don't overlap.
+- The title image will be scaled down (but not up) to fit the height
+  of the topbar exactly. This means any padding should be included in
+  the image, and the image should be at least 100px high.
+- The button icons will also be scaled down (but not up) to fit the
+  height of the button precisely. The width of the button is the width
+  of the icon (or text) plus a small amount of padding. We'd recommend
+  button icons are at least 64px high to make sure they always fill
+  the button.
+- The total width of the title and buttons is not checked by Forge, so
+  its up to you to test everything fits, We'd recommend leaving spare
+  space to make sure devices with unexpected screen ratios don't
+  overlap.
