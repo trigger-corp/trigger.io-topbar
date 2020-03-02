@@ -1,9 +1,9 @@
 {
-    "changes": "* Android 'P' support\n* Moved config option and API method `setStatusBarStyle` to `display` module.",
+    "changes": "* Final removal of all UIWebView support code",
     "description": "Add a fixed navigation bar to the top of your app.\n\nThe topbar module provides a native title and navigation bar at the top of your app. You can add and configure buttons, set the title and icons from JavaScript.",
-    "min_platform_version": "v2.7.1",
+    "min_platform_version": "v2.8.9",
     "namespace": "topbar",
-    "platform_version": "v2.7.1",
-    "version": "2.15",
+    "platform_version": "v2.8.9",
+    "version": "2.16",
     "dependencies": {}
 }

@@ -23,11 +23,9 @@
 
 - (void) clicked {
     if ([callId isEqualToString:@"back"]) {
-        withWebView(webView, {
-            if ([webView canGoBack]) {
-                [webView goBack];
-            }
-        });
+        if ([ForgeApp.sharedApp.webView canGoBack]) {
+            [ForgeApp.sharedApp.webView goBack];
+        }
     } else {
         NSString *eventName = [NSString stringWithFormat:@"topbar.buttonPressed.%@", callId];
         [[ForgeApp sharedApp] event:eventName withParam:[NSNull null]];
