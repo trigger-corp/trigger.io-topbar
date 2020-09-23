@@ -39,7 +39,7 @@ extern UIStatusBarStyle topbar_statusBarStyle;
 }
 
 
-+ (void)setTitleImage:(ForgeTask*)task icon:(NSObject*)icon {
++ (void)setTitleImage:(ForgeTask*)task icon:(NSString*)icon {
     if (icon == nil) {
         [task error:@"Failed to load image" type:@"UNEXPECTED_FAILURE" subtype:nil];
         return;
@@ -48,7 +48,8 @@ extern UIStatusBarStyle topbar_statusBarStyle;
     UINavigationBar *navigationBar = ForgeApp.sharedApp.viewController.navigationBar;
     UINavigationItem *navItem = ((UINavigationItem*)[navigationBar.items objectAtIndex:0]);
 
-    [[[ForgeFile alloc] initWithObject:icon] data:^(NSData *data) {
+    ForgeFile *forgeFile = [ForgeFile withEndpointId:ForgeStorage.EndpointIds.Source resource:icon];
+    [forgeFile contents:^(NSData *data) {
         UIImage *titleImage = [[UIImage alloc] initWithData:data];
         if (titleImage == nil) {
             [task error:@"Invalid input" type:@"BAD_INPUT" subtype:nil];
@@ -143,17 +144,25 @@ extern UIStatusBarStyle topbar_statusBarStyle;
         UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [backButton setBackgroundImage:stretchableBackButton forState:UIControlStateNormal];
         [backButton setBackgroundImage:stretchableBackButtonPressed forState:UIControlStateHighlighted];
+        
 
         if ([task.params objectForKey:@"text"] != nil) {
             NSString *buttonTitle = [task.params objectForKey:@"text"];
             [backButton setTitle:buttonTitle forState:UIControlStateNormal];
             [backButton setTitle:buttonTitle forState:UIControlStateHighlighted];
             backButton.titleEdgeInsets = UIEdgeInsetsMake(1, 8, 2, 1); // Tweak the text position
-            NSInteger width = ([backButton.titleLabel.text sizeWithFont:backButton.titleLabel.font].width + backButton.titleEdgeInsets.right +backButton.titleEdgeInsets.left);
+            // This may be deprecated but it gives the right size, which is more than I can say for its replacement
+            CGSize backButtonTitleSize = [backButton.titleLabel.text sizeWithFont:backButton.titleLabel.font];
+            /*CGSize backButtonTitleSize = [backButton.titleLabel.text sizeWithAttributes:@{
+                NSFontAttributeName: backButton.titleLabel.font
+            }];*/
+            NSInteger width = (backButtonTitleSize.width + backButton.titleEdgeInsets.right + backButton.titleEdgeInsets.left);
             [backButton setFrame:CGRectMake(0, 0, width, 29)];
             backButton.titleLabel.font = [UIFont boldSystemFontOfSize:12.0f];
         } else {
-            [[[ForgeFile alloc] initWithObject:[task.params objectForKey:@"icon"]] data:^(NSData *data) {
+            NSString *icon = task.params[@"icon"];
+            ForgeFile *forgeFile = [ForgeFile withEndpointId:ForgeStorage.EndpointIds.Source resource:icon];
+            [forgeFile contents:^(NSData *data) {
                 UIImage *icon = [[UIImage alloc] initWithData:data];
                 icon = [icon imageWithWidth:0 andHeight:28 andRetina:YES];
 
@@ -168,6 +177,7 @@ extern UIStatusBarStyle topbar_statusBarStyle;
 
         [backButton addTarget:delegate action:@selector(clicked) forControlEvents:UIControlEventTouchUpInside];
         button = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+        
     } else if ([[task.params objectForKey:@"style"] isEqualToString:@"back"] && floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1) {
         UIColor *tintColor;
         if ([task.params objectForKey:@"tint"] != nil) {
@@ -189,11 +199,15 @@ extern UIStatusBarStyle topbar_statusBarStyle;
             NSString *buttonTitle = [task.params objectForKey:@"text"];
             [backButton setTitle:buttonTitle forState:UIControlStateNormal];
             backButton.titleEdgeInsets = UIEdgeInsetsMake(0, 15, 0, 0); // Tweak the text position
-            NSInteger width = ([backButton.titleLabel.text sizeWithFont:backButton.titleLabel.font].width + backButton.titleEdgeInsets.right +backButton.titleEdgeInsets.left);
+            // This may be deprecated but it gives the right size, which is more than I can say for its replacement
+            CGSize backButtonTitleSize = [backButton.titleLabel.text sizeWithFont:backButton.titleLabel.font];
+            NSInteger width = (backButtonTitleSize.width + backButton.titleEdgeInsets.right + backButton.titleEdgeInsets.left);
             [backButton setFrame:CGRectMake(0, 0, width, 20.5)];
 
         } else {
-            [[[ForgeFile alloc] initWithObject:[task.params objectForKey:@"icon"]] data:^(NSData *data) {
+            NSString *resource = task.params[@"icon"];
+            ForgeFile *forgeFile = [ForgeFile withEndpointId:ForgeStorage.EndpointIds.Source resource:resource];
+            [forgeFile contents:^(NSData *data) {
                 UIImage *icon = [[UIImage alloc] initWithData:data];
                 icon = [icon imageWithWidth:0 andHeight:28 andRetina:YES];
 
@@ -208,6 +222,7 @@ extern UIStatusBarStyle topbar_statusBarStyle;
 
         [backButton addTarget:delegate action:@selector(clicked) forControlEvents:UIControlEventTouchUpInside];
         button = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+        
     } else {
         if ([task.params objectForKey:@"text"] != nil) {
             button = [[UIBarButtonItem alloc] initWithTitle:[task.params objectForKey:@"text"] style:UIBarButtonItemStylePlain target:delegate action:@selector(clicked)];
@@ -217,7 +232,9 @@ extern UIStatusBarStyle topbar_statusBarStyle;
 
             __block UIImage *icon = nil;
             dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
-                [[[ForgeFile alloc] initWithObject:[task.params objectForKey:@"icon"]] data:^(NSData *data) {
+                NSString *resource = task.params[@"icon"];
+                ForgeFile *forgeFile = [ForgeFile withEndpointId:ForgeStorage.EndpointIds.Source resource:resource];
+                [forgeFile contents:^(NSData *data) {
                     icon = [[UIImage alloc] initWithData:data];
                     icon = [icon imageWithWidth:0 andHeight:28 andRetina:YES];
 
