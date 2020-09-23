@@ -1,9 +1,9 @@
 {
-    "changes": "* Final removal of all UIWebView support code",
+    "changes": "* Update to new Forge v2.9.x ForgeFile API's.\n* Update for Android 11\n* Update for iOS 14",
     "description": "Add a fixed navigation bar to the top of your app.\n\nThe topbar module provides a native title and navigation bar at the top of your app. You can add and configure buttons, set the title and icons from JavaScript.",
-    "min_platform_version": "v2.8.6",
+    "min_platform_version": "v2.9.0",
     "namespace": "topbar",
-    "platform_version": "v2.8.6",
-    "version": "2.16",
+    "platform_version": "v2.9.0",
+    "version": "2.17",
     "dependencies": {}
 }
