@@ -1,6 +1,7 @@
 package io.trigger.forge.android.modules.topbar;
 
 import android.app.Activity;
+import android.content.res.AssetFileDescriptor;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
@@ -19,9 +20,11 @@ import android.widget.TextView;
 import com.google.gson.JsonArray;
 
 import java.io.IOException;
+import java.io.InputStream;
 
 import io.trigger.forge.android.core.ForgeApp;
 import io.trigger.forge.android.core.ForgeFile;
+import io.trigger.forge.android.core.ForgeStorage;
 import io.trigger.forge.android.core.ForgeTask;
 import io.trigger.forge.android.core.ForgeViewController;
 import io.trigger.forge.android.util.BitmapUtil;
@@ -141,19 +144,25 @@ public class API {
                         text.setGravity(Gravity.CENTER);
                         text.setPadding(margin * 2, margin, margin * 2, margin);
                         button.addView(text);
+
                     } else if (task.params.has("icon")) {
                         ImageView image = new ImageView(ForgeApp.getActivity());
                         image.setScaleType(ImageView.ScaleType.CENTER);
 
+                        ForgeFile forgeFile = new ForgeFile(ForgeStorage.EndpointId.Source, task.params.get("icon").getAsString());
+                        AssetFileDescriptor fileDescriptor = ForgeStorage.getFileDescriptor(forgeFile);
+                        InputStream inputStream = fileDescriptor.createInputStream();
+
                         Drawable icon;
                         if (task.params.has("prerendered") && task.params.get("prerendered").getAsBoolean()) {
-                            icon = BitmapUtil.scaledDrawableFromStream(ForgeApp.getActivity(), new ForgeFile(ForgeApp.getActivity(), task.params.get("icon")).fd().createInputStream(), 0, 32);
+                            icon = BitmapUtil.scaledDrawableFromStream(ForgeApp.getActivity(), inputStream, 0, 32);
                         } else {
-                            icon = BitmapUtil.scaledDrawableFromStreamWithTint(ForgeApp.getActivity(), new ForgeFile(ForgeApp.getActivity(), task.params.get("icon")).fd().createInputStream(), 0, 32, tint);
+                            icon = BitmapUtil.scaledDrawableFromStreamWithTint(ForgeApp.getActivity(), inputStream, 0, 32, tint);
                         }
                         image.setImageDrawable(icon);
                         image.setPadding(margin * 2, 1, margin * 2, 1);
                         button.addView(image);
+
                     } else {
                         task.error("Invalid parameters sent to forge.topbar.addButton", "BAD_INPUT", null);
                         return;
@@ -170,6 +179,7 @@ public class API {
                         params.rightMargin = Math.round(metrics.density * 9);
                         params.topMargin = Math.round(metrics.density * 9);
                         ForgeViewController.navigationBar.addView(button, params);
+
                     } else {
                         if (Util.left != null) {
                             task.error("Button already exists in position: right", "EXPECTED_FAILURE", null);

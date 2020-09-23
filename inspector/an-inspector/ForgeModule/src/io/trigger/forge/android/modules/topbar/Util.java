@@ -2,6 +2,7 @@ package io.trigger.forge.android.modules.topbar;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.AssetFileDescriptor;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -13,9 +14,11 @@ import android.widget.TextView;
 import com.google.gson.JsonElement;
 
 import java.io.IOException;
+import java.io.InputStream;
 
 import io.trigger.forge.android.core.ForgeApp;
 import io.trigger.forge.android.core.ForgeFile;
+import io.trigger.forge.android.core.ForgeStorage;
 import io.trigger.forge.android.core.ForgeViewController;
 import io.trigger.forge.android.util.BitmapUtil;
 
@@ -44,7 +47,11 @@ public class Util {
         ImageView newtitle = new ImageView(context);
         newtitle.setScaleType(ImageView.ScaleType.CENTER);
 
-        newtitle.setImageDrawable(BitmapUtil.scaledDrawableFromStream(context, new ForgeFile(ForgeApp.getActivity(), icon).fd().createInputStream(), 0, 50));
+        ForgeFile forgeFile = new ForgeFile(ForgeStorage.EndpointId.Source, icon.getAsString());
+        AssetFileDescriptor fileDescriptor = ForgeStorage.getFileDescriptor(forgeFile);
+        InputStream inputStream = fileDescriptor.createInputStream();
+
+        newtitle.setImageDrawable(BitmapUtil.scaledDrawableFromStream(context, inputStream, 0, 50));
 
         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(10000, 10000);
         ForgeViewController.navigationBar.addView(newtitle, params);
